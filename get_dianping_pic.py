@@ -97,7 +97,7 @@ print uuid
 
 
 UserVerify_url = "http://www.dianping.com/account/ajax/passwordLogin"
-data_ = {"keepLogin":"on","password":"5007734","username":"18702978864","uuid":uuid}
+data_ = {"keepLogin":"on","password":"xxxx","username":"xxxxxxx","uuid":uuid}
 
 r3 = s.post(UserVerify_url,data=data_,headers=headers3)
 print r3.text
